@@ -1,16 +1,68 @@
-# React + Vite
+# 🛍️ Clothify - E-commerce Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern clothing e-commerce website built using React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🏠 Home Page
 
-## React Compiler
+<img src="./public/homePage.png" width="700"/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛍️ Collections Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img src="./public/collections.png" width="700"/>
+
+---
+
+## 📦 Product Details Page
+
+<img src="./public/products/your-product-image.png" width="700"/>
+
+---
+
+## 🛒 Cart Page
+
+<img src="./public/cart.png" width="700"/>
+
+---
+
+## 🔐 Login Page
+
+<img src="./public/login.png" width="700"/>
+
+---
+
+## 🧾 Footer Section
+
+<img src="./public/footer.png" width="700"/>
+
+---
+
+## 🚀 Features
+
+- Product browsing & filtering
+- Add to cart functionality (LocalStorage)
+- Cart with subtotal, tax & total
+- Product details page
+- Login page (dummy authentication)
+- Responsive UI
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- React JS
+- Vite
+- Tailwind CSS
+- React Router DOM
+- LocalStorage
+
+---
+
+## 📦 Run Project
+
+```bash
+npm install
+npm run dev
